@@ -30,6 +30,4 @@ basic.forever(() => {
 })
 ```
 
-To learn more about PXT. Go to [Microsoft/pxt](http://github.com/Microsoft/pxt).
-
-For full mkdocs documentation [mkdocs.org](http://mkdocs.org).
+For more information, go to [Microsoft/pxt-mkdocs-sample](http://github.com/Microsoft/pxt-mkdocs-sample).
