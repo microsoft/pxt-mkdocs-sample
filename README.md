@@ -1,14 +1,36 @@
+# pxt-mkdocs-sample
 
-# Contributing
+View the [demo here](https://microsoft.github.io/pxt-mkdocs-sample/).
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+This repo is a documentation website generated with [mkdocs.org](http://mkdocs.org) using MakeCode for rendering the blocks code.
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+# How to use this repo?
+
+The three main configuration points for add MakeCode blocks rendering into your mkdocs project are: 
+- mkdocs.yml configuration
+- add embed.js to your docs folder
+- configure embed.js with the makecode website URL you want to use. eg: makecode.microbit.org
+
+
+## mkdocs.yml configuration
+
+Open your mkdocs.yml and add the following configuration lines: 
+
+```
+libs: jquery
+extra_javascript: [embed.js]
+```
+
+## add embed.js
+
+Copy the [embed.js]() file from this repo and insert it into your /docs folder
+
+## configure embed.js
+
+Open embed.js in a text editor and make sure you have the correct configuration for the MakeCode website you want to use. 
+For example, if you are writing blocks for the micro:bit. In the top of the file, edit `makecodeUrl` and change it to "makecode.microbit.org". For Adafruit, use "makecode.adafruit.com" instead.
+
+# License 
+
+MIT
