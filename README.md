@@ -2,12 +2,12 @@
 
 View the [demo here](https://microsoft.github.io/pxt-mkdocs-sample/).
 
-This repo is a documentation website generated with [mkdocs.org](http://mkdocs.org) using MakeCode for rendering the blocks code.
+This repo is a documentation website generated with [mkdocs.org](http://mkdocs.org) using Microsoft MakeCode for rendering the blocks code.
 
 
 # How to use this repo?
 
-The three main configuration points for add MakeCode blocks rendering into your mkdocs project are: 
+The three main configuration points for add Microsoft MakeCode blocks rendering into your mkdocs project are: 
 - mkdocs.yml configuration
 - add embed.js to your docs folder
 - configure embed.js with the makecode website URL you want to use. eg: makecode.microbit.org
