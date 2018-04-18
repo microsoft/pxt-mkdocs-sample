@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome\n\n\nThis is a sample documentation page created with mkdocs.\n\n\nHere are some blocks: \n\n\nbasic.showString(\nHello world\n)\n\n\n\n\nand more blocks:\n\n\nbasic.forever(() =\n {\n    basic.showLeds(`\n        . # . # .\n        # . # . #\n        # . . . #\n        . # . # .\n        . . # . .\n        `)\n    basic.showLeds(`\n        . # . # .\n        # # # # #\n        # # # # #\n        . # # # .\n        . . # . .\n        `)\n})\n\n\n\n\nTo learn more about PXT. Go to \nMicrosoft/pxt\n.\n\n\nFor full mkdocs documentation \nmkdocs.org\n.", 
+            "text": "Welcome\n\n\nThis is a sample documentation page created with mkdocs.\n\n\nHere are some blocks: \n\n\nbasic.showString(\nHello world\n)\n\n\n\n\nand more blocks:\n\n\nbasic.forever(() =\n {\n    basic.showLeds(`\n        . # . # .\n        # . # . #\n        # . . . #\n        . # . # .\n        . . # . .\n        `)\n    basic.showLeds(`\n        . # . # .\n        # # # # #\n        # # # # #\n        . # # # .\n        . . # . .\n        `)\n})\n\n\n\n\nFor more information, go to \nMicrosoft/pxt-mkdocs-sample\n.", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome", 
-            "text": "This is a sample documentation page created with mkdocs.  Here are some blocks:   basic.showString( Hello world )  and more blocks:  basic.forever(() =  {\n    basic.showLeds(`\n        . # . # .\n        # . # . #\n        # . . . #\n        . # . # .\n        . . # . .\n        `)\n    basic.showLeds(`\n        . # . # .\n        # # # # #\n        # # # # #\n        . # # # .\n        . . # . .\n        `)\n})  To learn more about PXT. Go to  Microsoft/pxt .  For full mkdocs documentation  mkdocs.org .", 
+            "text": "This is a sample documentation page created with mkdocs.  Here are some blocks:   basic.showString( Hello world )  and more blocks:  basic.forever(() =  {\n    basic.showLeds(`\n        . # . # .\n        # . # . #\n        # . . . #\n        . # . # .\n        . . # . .\n        `)\n    basic.showLeds(`\n        . # . # .\n        # # # # #\n        # # # # #\n        . # # # .\n        . . # . .\n        `)\n})  For more information, go to  Microsoft/pxt-mkdocs-sample .", 
             "title": "Welcome"
         }
     ]
