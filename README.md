@@ -2,7 +2,7 @@
 
 View the [demo here](https://microsoft.github.io/pxt-mkdocs-sample/).
 
-This repo is a documentation website generated with [mkdocs.org](http://mkdocs.org) using Microsoft MakeCode for rendering the blocks code.
+This repo is a documentation website generated with [mkdocs.org](https://www.mkdocs.org) using Microsoft MakeCode for rendering the blocks code.
 
 
 # How to use this repo?
